@@ -1,7 +1,10 @@
 package com.ths.forfun.controller;
 
 import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.vo.ResultVO;
+import com.ths.forfun.pojo.vo.ResultVOFactory;
 import com.ths.forfun.service.AuthService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,9 +20,10 @@ public class AuthController {
     @Autowired
     private AuthService authService;
 
+    @ApiOperation("登录")
     @PostMapping("/login")
-    public Object login(@RequestBody User user) {
+    public ResultVO<Void> login(@RequestBody User user) {
         authService.login(user);
-        return "success";
+        return ResultVOFactory.buildSuccess();
     }
 }
