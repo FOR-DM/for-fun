@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 
 /**
- * com.ths.forfun.pojo
+ * 用户表
  *
  * @author: wangqd
  * @since: 2018/7/20
