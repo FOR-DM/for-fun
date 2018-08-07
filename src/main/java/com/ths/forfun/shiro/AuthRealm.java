@@ -1,7 +1,7 @@
 package com.ths.forfun.shiro;
 
 
-import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.entity.User;
 import com.ths.forfun.service.AuthService;
 import com.ths.forfun.service.UserService;
 import org.apache.shiro.SecurityUtils;

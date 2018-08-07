@@ -1,6 +1,6 @@
 package com.ths.forfun.service;
 
-import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.entity.User;
 
 /**
  * com.ths.forfun.service

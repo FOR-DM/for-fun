@@ -1,6 +1,6 @@
 package com.ths.forfun.repository;
 
-import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

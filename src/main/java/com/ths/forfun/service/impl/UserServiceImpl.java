@@ -1,6 +1,6 @@
 package com.ths.forfun.service.impl;
 
-import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.entity.User;
 import com.ths.forfun.repository.UserRepository;
 import com.ths.forfun.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

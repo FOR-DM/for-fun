@@ -1,6 +1,6 @@
 package com.ths.forfun.service.impl;
 
-import com.ths.forfun.pojo.User;
+import com.ths.forfun.pojo.entity.User;
 import com.ths.forfun.service.AuthService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
